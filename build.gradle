@@ -1,8 +1,12 @@
-plugins { id 'fabric-loom' version '1.14-SNAPSHOT' }
+plugins { id 'fabric-loom' version '1.14.10' }
 version = project.mod_version
 group = project.maven_group
 base { archivesName = project.archives_base_name }
-repositories { mavenCentral() }
+repositories {
+    // Mirror first, so Maven Central's 429s are avoided when possible
+    maven { name = 'MavenCentralMirror'; url = 'https://maven-central.storage-download.googleapis.com/maven2/' }
+    mavenCentral()
+}
 dependencies {
     compileOnly "io.github.llamalad7:mixinextras-common:0.4.1"
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
