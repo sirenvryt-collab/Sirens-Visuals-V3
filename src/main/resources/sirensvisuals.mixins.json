@@ -1,0 +1,11 @@
+{
+  "required": false,
+  "package": "com.sirens.visuals.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "EntityTurnMixin", "CameraRotMixin", "CameraDistMixin", "FovMixin", "ScrollMixin",
+    "WaterVisionMixin", "WaterColorMixin", "SkinMixin", "SwingMixin", "TimeMixin",
+    "SkyColorMixin", "SkyRendererMixin", "FireMixin", "HandMixin"
+  ],
+  "injectors": { "defaultRequire": 0 }
+}

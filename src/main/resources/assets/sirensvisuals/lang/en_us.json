@@ -1,0 +1,16 @@
+{
+  "key.sirensvisuals.menu": "Open Menu",
+  "key.sirensvisuals.zoom": "Zoom",
+  "key.sirensvisuals.emote": "Emote Wheel",
+  "key.sirensvisuals.fullbright": "Toggle Fullbright",
+  "key.sirensvisuals.hidehud": "Sirens: Hide HUD",
+  "key.sirensvisuals.play": "Sirens: Music Play/Pause",
+  "key.sirensvisuals.next": "Sirens: Music Next",
+  "key.sirensvisuals.prev": "Sirens: Music Previous",
+  "key.category.sirensvisuals.main": "Sirens Visuals",
+  "key.sirensvisuals.freelook": "Freelook",
+  "key.sirensvisuals.cinematic": "Cinematic Camera",
+  "key.sirensvisuals.music_play": "Music Play/Pause",
+  "key.sirensvisuals.music_next": "Music Next",
+  "key.sirensvisuals.music_prev": "Music Previous"
+}

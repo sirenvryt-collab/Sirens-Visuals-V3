@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "sirensvisuals",
+  "version": "${version}",
+  "name": "Sirens Visuals",
+  "description": "Customizable visuals: HUD editor, water, wet terrain, glint, low fire, sky, skins, capes, cosmetics, freelook, cinematic camera, hand editor and YouTube Music lyrics.",
+  "authors": [
+    "Siren"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.sirens.visuals.SirensVisuals"
+    ]
+  },
+  "mixins": [
+    "sirensvisuals.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
