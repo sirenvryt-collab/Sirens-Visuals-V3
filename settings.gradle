@@ -1,9 +1,1 @@
-pluginManagement {
-    repositories {
-        maven { name = 'Fabric'; url = 'https://maven.fabricmc.net/' }
-        // Google's mirror of Maven Central. Not rate-limited like repo.maven.apache.org.
-        maven { name = 'MavenCentralMirror'; url = 'https://maven-central.storage-download.googleapis.com/maven2/' }
-        mavenCentral()
-        gradlePluginPortal()
-    }
-}
+pluginManagement { repositories { maven { name = 'Fabric'; url = 'https://maven.fabricmc.net/' }; mavenCentral(); gradlePluginPortal() } }
